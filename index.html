@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestore</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+
+
+</head>
+
+<body>
+    <h1>CLOUD FIRESTORE</h1>
+    <div class="row">
+        <div class="col-md-6" id="main">
+
+            <div class="row">
+                <div class="col-md-2">Category</div>
+                <div class="col">
+                    <input type="text" id="field" list="categoryOption">
+                    <datalist id="categoryOption">
+                              <option>Bussiness</option>
+                              <option>Devlopment</option>
+                              <option>Marketting</option>
+                         </datalist>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Name</div>
+                <div class="col">
+                    <input type="text" id="name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Description</div>
+                <div class="col">
+                    <input type="text" id="des">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">Title</div>
+                <div class="col">
+                    <input type="text" id="title">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary" id="submit">Save</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" id="update">update</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" id="delete">Delete</button>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <!-- <div class="row">
+            <div class="col-md-2">Description</div>
+            <div class="col">
+                <input type="text" id="description">
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary" id="update">update</button>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-2">Category</div>
+            <div class="col">
+                <input type="text" id="field" list="categoryOption">
+                <datalist id="categoryOption">
+                              <option>Bussiness</option>
+                              <option>Devlopment</option>
+                              <option>Marketting</option>
+                         </datalist>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">Name</div>
+            <div class="col">
+                <input type="text" id="name">
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary" id="delete">Delete</button>
+        </div>
+        -->
+
+
+    </div>
+    <br><br>
+
+
+    <div class="col-md-4" id="list">
+        <p>User List:</p>
+
+    </div>
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-functions.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-storage.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
