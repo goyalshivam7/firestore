@@ -1,12 +1,12 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDqiqhI7gfp9DK9HMYMhEOX6xvqywcSH44",
-    authDomain: "shivam-18ffd.firebaseapp.com",
-    databaseURL: "https://shivam-18ffd.firebaseio.com",
-    projectId: "shivam-18ffd",
-    storageBucket: "shivam-18ffd.appspot.com",
-    messagingSenderId: "471296058765",
-    appId: "1:471296058765:web:7df58d065a715c328749c4",
-    measurementId: "G-WJ7PQZYF1B"
+    apiKey: 
+    authDomain: 
+    databaseURL: 
+    projectId: 
+    storageBucket:
+    messagingSenderId: ,
+    appId: 
+    measurementId: 
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
